@@ -22,6 +22,8 @@ int main()
 
 void say_hello(void)    //함수가 함수를 호출하는 형식
 {
+	int x = 1; // 변수 초기값 설정
+	x = 10;
 	printf("Hello World! \n");
 
 	// void는 return 생략가능
