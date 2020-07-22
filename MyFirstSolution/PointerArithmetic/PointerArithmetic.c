@@ -11,7 +11,7 @@ int main() {
 
 	//포인터끼리 빼기연산
 	double arr[10];  //double은 데이터 하나당 8바이트
-	double* ptr1 = &arr[1], * ptr2 = &arr[3];
+	double* ptr1 = &arr[0], * ptr2 = &arr[3];
 
 	//int* ptr3 = ptr1 + ptr2; // not working
 	int i = ptr2 - ptr1;
