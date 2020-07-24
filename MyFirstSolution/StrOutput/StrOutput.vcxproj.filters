@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CompoundLiteral.c">
+    <ClCompile Include="StrOutput.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a62f9295-b962-41b6-9314-47cc5009bb5a}</ProjectGuid>
-    <RootNamespace>VLAs</RootNamespace>
+    <ProjectGuid>{9b1110d1-8996-4a9c-86df-581dcc97569f}</ProjectGuid>
+    <RootNamespace>StrOutput</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="VLAs.c" />
+    <ClCompile Include="StrOutput.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
